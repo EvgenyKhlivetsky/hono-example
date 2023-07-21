@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "dev": "bun run --hot src/index.ts"
+  },
+  "dependencies": {
+    "bun": "^0.7.0",
+    "hono": "^3.3.2",
+    "htmx": "^0.0.2"
+  },
+  "devDependencies": {
+    "bun-types": "^0.6.2"
+  }
+}

@@ -6,7 +6,7 @@ import Default from './pages'
 const app = new Hono()
 
 app.get('/', (c) => c.html(Default()))
-
+// comment
 app.get('/one', async (c) => {
     const data = await fetch('https://swapi.dev/api/people/1');
     const luke = await data.json();
